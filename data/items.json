@@ -1,0 +1,234 @@
+{ "items": [
+  {
+    "id": "sofa", "name": "Sofa / Couch", "category": "furniture",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "800-2800", "currency": "JPY",
+        "steps": ["Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Attach sticker and place at designated spot on collection day"],
+        "note": "Cost varies by size. 2-seater around 800 yen, 3-seater+ up to 2800 yen in Tokyo wards." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["mercari", "jimoty"],
+        "note": "Jimoty is best for large furniture — buyer picks up for free." },
+      { "method": "pickup_service", "label": "Paid Pickup Service", "cost_range": "3000-10000", "currency": "JPY",
+        "note": "Private haulers offer same-day pickup. Confirm licensing (一般廃棄物収集運搬許可)." }
+    ],
+    "recycling_law": false, "tags": ["couch", "loveseat", "sofa bed"]
+  },
+  {
+    "id": "refrigerator", "name": "Refrigerator / Fridge", "category": "appliances",
+    "disposal_methods": [
+      { "method": "recycling_law", "label": "Home Appliance Recycling Law",
+        "cost_range": "3740-6149", "currency": "JPY",
+        "steps": ["Pay recycling fee at a post office (yuubin kyoku)", "Arrange collection via retailer or designated collection point", "Keep the recycling ticket receipt"],
+        "note": "Recycling fee: 3740 yen (170L or smaller) to 4730 yen (171L+). Collection/transport fee ~1000-3000 yen extra." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["hard_off", "secondstreet"],
+        "note": "Shops may buy fridges under 5 years old. Older units are usually refused." }
+    ],
+    "recycling_law": true, "tags": ["fridge", "freezer", "refrigerator-freezer"]
+  },
+  {
+    "id": "washing_machine", "name": "Washing Machine", "category": "appliances",
+    "disposal_methods": [
+      { "method": "recycling_law", "label": "Home Appliance Recycling Law",
+        "cost_range": "2530-3300", "currency": "JPY",
+        "steps": ["Pay recycling fee at a post office", "Arrange collection via retailer or designated collection point", "Keep the recycling ticket receipt"],
+        "note": "Recycling fee: 2530 yen. Clothes dryers also 2530 yen. Transport fee ~1000-3000 yen extra." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["hard_off", "secondstreet"],
+        "note": "Machines under 5 years old in working condition may be purchased." }
+    ],
+    "recycling_law": true, "tags": ["washer", "dryer", "laundry machine", "clothes dryer"]
+  },
+  {
+    "id": "tv", "name": "Television / TV", "category": "electronics",
+    "disposal_methods": [
+      { "method": "recycling_law", "label": "Home Appliance Recycling Law",
+        "cost_range": "1320-3700", "currency": "JPY",
+        "steps": ["Pay recycling fee at a post office", "Arrange collection via retailer or designated collection point", "Keep the recycling ticket receipt"],
+        "note": "Recycling fee: 1320-1870 yen (15 inch and under), 2420-3700 yen (16 inch+). Varies by manufacturer." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["hard_off", "mercari"],
+        "note": "Smart TVs and recent models sell well. CRT TVs are very difficult to sell." }
+    ],
+    "recycling_law": true, "tags": ["television", "monitor", "CRT", "LCD", "flat screen"]
+  },
+  {
+    "id": "ac_unit", "name": "Air Conditioner (AC Unit)", "category": "appliances",
+    "disposal_methods": [
+      { "method": "recycling_law", "label": "Home Appliance Recycling Law",
+        "cost_range": "990-9900", "currency": "JPY",
+        "steps": ["Pay recycling fee at a post office", "Hire a licensed technician to remove the unit", "Arrange collection via retailer or designated point"],
+        "note": "Recycling fee: 990-2000 yen. Removal by technician costs 4000-8000 yen extra. Never attempt DIY removal — refrigerant gas is regulated." }
+    ],
+    "recycling_law": true, "tags": ["air conditioner", "aircon", "AC", "cooling unit", "heater"]
+  },
+  {
+    "id": "bicycle", "name": "Bicycle", "category": "bikes",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "400-800", "currency": "JPY",
+        "steps": ["Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Remove the防犯登録 (bouhan touroku / bike registration) at a police box or bike shop before disposal", "Attach sticker and place at designated spot"],
+        "note": "Most Tokyo wards charge 400-800 yen. You must cancel your bike registration first." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["jimoty", "mercari"],
+        "note": "Working bikes sell easily on Jimoty for local pickup." }
+    ],
+    "recycling_law": false, "tags": ["bike", "mamachari", "road bike", "mountain bike"]
+  },
+  {
+    "id": "pc_laptop", "name": "PC / Laptop", "category": "electronics",
+    "disposal_methods": [
+      { "method": "manufacturer_recycling", "label": "Manufacturer Recycling (free for post-2003 PCs)",
+        "cost_range": "0-4400", "currency": "JPY",
+        "steps": ["Check for the PC Recycling Mark sticker on your device", "Apply to the manufacturer's recycling program online", "Receive a prepaid shipping label and send the device"],
+        "note": "PCs with the PC Recycling Mark (PCリサイクルマーク) are collected free. Without the mark: ~3300 yen (desktop/laptop) or ~4400 yen (with monitor)." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["mercari", "yahoo_auctions", "hard_off"],
+        "note": "Wipe all data before selling. Working laptops sell well on Mercari." }
+    ],
+    "recycling_law": false, "tags": ["computer", "laptop", "desktop", "notebook PC", "MacBook"]
+  },
+  {
+    "id": "desk", "name": "Desk", "category": "furniture",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "400-2800", "currency": "JPY",
+        "steps": ["Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Attach sticker and place at designated spot on collection day"],
+        "note": "Small desks ~400 yen, large office desks up to 2800 yen." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["jimoty", "mercari"],
+        "note": "Standing desks and IKEA desks sell quickly on Jimoty." }
+    ],
+    "recycling_law": false, "tags": ["office desk", "study desk", "standing desk", "writing desk"]
+  },
+  {
+    "id": "bookshelf", "name": "Bookshelf / Shelving Unit", "category": "furniture",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "400-2000", "currency": "JPY",
+        "steps": ["Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Attach sticker and place at designated spot on collection day"],
+        "note": "400 yen for small units, up to 2000 yen for tall/wide bookshelves." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["jimoty"],
+        "note": "Heavy shelves are hard to ship. Jimoty local pickup is ideal." }
+    ],
+    "recycling_law": false, "tags": ["shelf", "shelving", "book rack", "storage shelf"]
+  },
+  {
+    "id": "bed_mattress", "name": "Bed Frame / Mattress", "category": "furniture",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "400-2800", "currency": "JPY",
+        "steps": ["Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Attach sticker and place at designated spot on collection day"],
+        "note": "Mattress (single): ~800 yen, mattress (double): ~1200 yen, bed frame: ~1200-2800 yen. Spring mattresses may require separate disposal." },
+      { "method": "pickup_service", "label": "Paid Pickup Service", "cost_range": "5000-15000", "currency": "JPY",
+        "note": "Large beds are difficult to move. Private haulers can carry them downstairs." }
+    ],
+    "recycling_law": false, "tags": ["bed", "mattress", "bed frame", "single bed", "double bed", "futon frame"]
+  },
+  {
+    "id": "futon", "name": "Futon (Japanese Bedding)", "category": "furniture",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "400", "currency": "JPY",
+        "steps": ["Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Fold or roll the futon and tie it with string", "Attach sticker and place at designated spot"],
+        "note": "Usually 400 yen per futon in Tokyo wards." },
+      { "method": "combustible", "label": "Combustible Trash (if cut up)", "cost_range": "0", "currency": "JPY",
+        "steps": ["Cut the futon into pieces small enough to fit in a designated trash bag", "Place in combustible trash on collection day"],
+        "note": "If you can cut it to fit in a 45L trash bag, it goes out as regular combustible trash for free." }
+    ],
+    "recycling_law": false, "tags": ["futon", "shikibuton", "kakebuton", "Japanese mattress"]
+  },
+  {
+    "id": "microwave", "name": "Microwave Oven", "category": "appliances",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "400-800", "currency": "JPY",
+        "steps": ["Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Attach sticker and place at designated spot on collection day"],
+        "note": "Most wards charge 400-800 yen. Microwaves are NOT covered by the Home Appliance Recycling Law." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["hard_off", "mercari"],
+        "note": "Working microwaves under 5 years old sell easily." }
+    ],
+    "recycling_law": false, "tags": ["microwave", "oven", "microwave oven", "convection oven"]
+  },
+  {
+    "id": "rice_cooker", "name": "Rice Cooker", "category": "appliances",
+    "disposal_methods": [
+      { "method": "incombustible", "label": "Non-combustible Trash", "cost_range": "0", "currency": "JPY",
+        "steps": ["Check your city's collection schedule for non-combustible trash", "Place in the designated collection area on the correct day"],
+        "note": "Small rice cookers (under 30cm) usually go out as non-combustible trash for free." },
+      { "method": "sodai_gomi", "label": "Bulk Waste (if over 30cm)", "cost_range": "400", "currency": "JPY",
+        "steps": ["Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Attach sticker and place at designated spot"],
+        "note": "Large rice cookers (over 30cm in any dimension) count as bulk waste." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["mercari", "hard_off"],
+        "note": "Japanese rice cookers (Zojirushi, Tiger) are popular with expats." }
+    ],
+    "recycling_law": false, "tags": ["rice cooker", "suihanki", "Zojirushi", "Tiger"]
+  },
+  {
+    "id": "table", "name": "Table (Dining / Kotatsu)", "category": "furniture",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "400-2800", "currency": "JPY",
+        "steps": ["Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Attach sticker and place at designated spot on collection day"],
+        "note": "Small table ~400 yen, dining table ~1000-2800 yen." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["jimoty", "mercari"],
+        "note": "Kotatsu tables are seasonal — sell in autumn for best price." }
+    ],
+    "recycling_law": false, "tags": ["dining table", "kotatsu", "coffee table", "side table"]
+  },
+  {
+    "id": "chair", "name": "Chair", "category": "furniture",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "400-800", "currency": "JPY",
+        "steps": ["Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Attach sticker and place at designated spot on collection day"],
+        "note": "Regular chair ~400 yen, office chair ~800 yen in most Tokyo wards." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["jimoty", "mercari"],
+        "note": "Gaming chairs and Herman Miller chairs sell well." }
+    ],
+    "recycling_law": false, "tags": ["office chair", "dining chair", "gaming chair", "folding chair"]
+  },
+  {
+    "id": "printer", "name": "Printer", "category": "electronics",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "400-800", "currency": "JPY",
+        "steps": ["Remove ink cartridges (return to manufacturer or recycle at electronics store)", "Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Attach sticker and place at designated spot"],
+        "note": "400-800 yen. Return ink cartridges separately at Bic Camera, Yodobashi, etc." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["hard_off", "mercari"],
+        "note": "Only recent models with working printheads have resale value." }
+    ],
+    "recycling_law": false, "tags": ["printer", "scanner", "multifunction printer", "inkjet", "laser printer"]
+  },
+  {
+    "id": "vacuum_cleaner", "name": "Vacuum Cleaner", "category": "appliances",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "400", "currency": "JPY",
+        "steps": ["Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Attach sticker and place at designated spot on collection day"],
+        "note": "Usually 400 yen. Handheld/stick vacuums under 30cm may go as non-combustible trash." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["mercari", "hard_off"],
+        "note": "Dyson and Roomba models retain good resale value." }
+    ],
+    "recycling_law": false, "tags": ["vacuum", "hoover", "Roomba", "robot vacuum", "stick vacuum", "Dyson"]
+  },
+  {
+    "id": "fan", "name": "Fan (Electric)", "category": "appliances",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "400", "currency": "JPY",
+        "steps": ["Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Attach sticker and place at designated spot on collection day"],
+        "note": "400 yen for most fans. Small desk fans under 30cm may go as non-combustible trash." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["mercari", "jimoty"],
+        "note": "Sell in spring/early summer for best price." }
+    ],
+    "recycling_law": false, "tags": ["electric fan", "standing fan", "desk fan", "tower fan", "senpuuki"]
+  },
+  {
+    "id": "heater", "name": "Heater / Space Heater", "category": "appliances",
+    "disposal_methods": [
+      { "method": "sodai_gomi", "label": "Bulk Waste (sodai gomi)", "cost_range": "400-800", "currency": "JPY",
+        "steps": ["Drain all kerosene from oil heaters completely", "Apply online or call your city's bulk waste center", "Buy a sodai gomi sticker at a konbini", "Attach sticker and place at designated spot on collection day"],
+        "note": "400-800 yen. IMPORTANT: Kerosene heaters must be fully drained. Some wards refuse heaters with fuel." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["jimoty", "mercari"],
+        "note": "Sell in autumn for best price. Kerosene heaters are harder to sell secondhand." }
+    ],
+    "recycling_law": false, "tags": ["heater", "space heater", "kerosene heater", "oil heater", "ceramic heater", "stove"]
+  },
+  {
+    "id": "clothes_shoes", "name": "Clothes / Shoes", "category": "other",
+    "disposal_methods": [
+      { "method": "combustible", "label": "Combustible Trash", "cost_range": "0", "currency": "JPY",
+        "steps": ["Place in a transparent or semi-transparent bag", "Put out on combustible trash collection day"],
+        "note": "Clothes go out as regular combustible trash for free in most wards." },
+      { "method": "recycling_box", "label": "Clothing Recycling Box", "cost_range": "0", "currency": "JPY",
+        "steps": ["Find a clothing recycling box at your ward office or community center", "Place clean, dry clothes in the box"],
+        "note": "Many wards have free collection events or permanent drop-off boxes." },
+      { "method": "secondhand_sell", "label": "Sell Second-Hand", "platforms": ["mercari", "book_off", "secondstreet"],
+        "note": "Brand-name items sell well on Mercari. 2nd Street and Book Off buy clothes in bulk." }
+    ],
+    "recycling_law": false, "tags": ["clothing", "shoes", "sneakers", "jacket", "coat", "dress", "jeans"]
+  }
+]}

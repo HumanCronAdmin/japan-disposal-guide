@@ -1,0 +1,96 @@
+/* Japan Disposal Guide - Custom Styles */
+/* Mobile-first: base styles for small screens, then scale up */
+
+html { scroll-behavior: smooth; }
+
+/* Ensure tap targets are at least 44px */
+button, a, input, select, textarea {
+  min-height: 44px;
+}
+
+/* Search input styling */
+#search-input {
+  min-height: 48px;
+  font-size: 16px; /* Prevents iOS zoom on focus */
+}
+
+/* Category filter horizontal scroll on mobile */
+#category-filters {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+}
+#category-filters::-webkit-scrollbar { display: none; }
+
+/* Items grid */
+#items-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+/* Platforms grid */
+#platforms-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+/* Prevent horizontal scroll */
+body { overflow-x: hidden; }
+
+/* Section nav links */
+.section-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.5rem 1rem;
+}
+
+/* Smooth section transitions */
+section { scroll-margin-top: 1rem; }
+
+/* Desktop: 480px+ */
+@media (min-width: 480px) {
+  #items-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #platforms-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large screens */
+@media (min-width: 768px) {
+  #items-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  #platforms-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #items-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Recycling law warning badge animation */
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+.recycling-law-badge { animation: pulse-soft 2s ease-in-out infinite; }
+
+/* Print styles */
+@media print {
+  nav, #search-input, #category-filters, footer { display: none; }
+  #items-grid { grid-template-columns: 1fr; }
+  .shadow-sm, .shadow-md { box-shadow: none; }
+}

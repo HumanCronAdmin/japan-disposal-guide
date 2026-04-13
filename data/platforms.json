@@ -1,0 +1,56 @@
+{ "platforms": [
+  {
+    "id": "mercari", "name": "Mercari", "url": "https://jp.mercari.com/",
+    "english_support": "app_only",
+    "fee": "10% of sale price",
+    "shipping": "Built-in anonymous shipping (Mercari Shipping). Seller or buyer pays.",
+    "best_for": ["clothing", "electronics", "small items", "brand goods"],
+    "payment": "Bank transfer, Merpay balance",
+    "note": "Largest flea market app in Japan. English app interface available. Listings in Japanese get more views."
+  },
+  {
+    "id": "yahoo_auctions", "name": "Yahoo Auctions (Yahoo! Flea Market)", "url": "https://auctions.yahoo.co.jp/",
+    "english_support": "none",
+    "fee": "10% of sale price (standard member)",
+    "shipping": "Seller arranges. Yahoo Neko Pak (Yamato) or Yahoo Yu Pack (Japan Post) available.",
+    "best_for": ["electronics", "collectibles", "cameras", "brand goods", "rare items"],
+    "payment": "Bank transfer, PayPay",
+    "note": "Best for auctions on rare/valuable items. Japanese-only interface. Requires Yahoo Japan ID."
+  },
+  {
+    "id": "jimoty", "name": "Jimoty", "url": "https://jmty.jp/",
+    "english_support": "none",
+    "fee": "Free (no selling fees)",
+    "shipping": "Local pickup only (buyer comes to you)",
+    "best_for": ["furniture", "large appliances", "free giveaways", "moving out items"],
+    "payment": "Cash on pickup, or free",
+    "note": "Best option for large items. Many listings are free (0 yen). Buyer picks up, so no shipping hassle. Japanese only."
+  },
+  {
+    "id": "hard_off", "name": "Hard Off", "url": "https://www.hardoff.co.jp/",
+    "english_support": "limited",
+    "fee": "No fee (they buy from you)",
+    "shipping": "Bring items to store, or request pickup for large items",
+    "best_for": ["electronics", "musical instruments", "audio equipment", "games", "appliances"],
+    "payment": "Cash on the spot",
+    "note": "Walk-in secondhand chain. Bring items for instant cash quote. Low buyback prices but zero hassle. 900+ stores nationwide."
+  },
+  {
+    "id": "secondstreet", "name": "2nd Street", "url": "https://www.2ndstreet.jp/",
+    "english_support": "limited",
+    "fee": "No fee (they buy from you)",
+    "shipping": "Bring items to store, or request pickup for large items",
+    "best_for": ["clothing", "brand bags", "shoes", "furniture", "small appliances"],
+    "payment": "Cash on the spot",
+    "note": "GEO Group chain. Strong on fashion and brand goods. Walk in for instant quote. 800+ stores nationwide."
+  },
+  {
+    "id": "book_off", "name": "Book Off", "url": "https://www.bookoff.co.jp/",
+    "english_support": "limited",
+    "fee": "No fee (they buy from you)",
+    "shipping": "Bring items to store",
+    "best_for": ["books", "manga", "CDs", "DVDs", "games", "clothing"],
+    "payment": "Cash on the spot",
+    "note": "Walk-in chain for books, media, and clothing. Very low buyback prices but accepts almost anything. 800+ stores."
+  }
+]}
